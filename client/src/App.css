@@ -1,38 +1,121 @@
-.App {
-  text-align: center;
+.navbar-padding {
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.below-nav {
+  padding-top: 5rem;
+  max-width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icon-size{
+  font-size: 1.5rem;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.icon-padding{
+  padding-right: 1rem;
+}
+
+.fixed-right-bottom {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+.form-padding{
+  padding-right: 1rem;
+  padding-left: 2.5rem;
+}
+
+.button-form{
+  padding-top: 1rem;
+  margin: auto;
+  width: 10%;
+}
+
+.status-open{
+  color: green;
+}
+
+.status-closed{
+  color: red;
+}
+
+.border-answer{
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(247, 243, 243);
+}
+
+.text-padding{
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.button-padding-save{
+  padding-top: 1rem;
+}
+
+.border-time{
+  border: none;
+  border-radius: 20px;
+  background-color: rgb(240, 76, 76);
+  padding-left: 1rem;
+}
+
+.white-text{
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.border-correct-answer{
+  border: none;
+  border-radius: 20px;
+  background-color: green;
+  color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.bottom-padding{
+  padding-bottom: 1rem;
+}
+
+.icon-position{
+  position: relative;
+  left: 1rem;
+}
+
+.icon-nav-position{
+  position: relative;
+  right: 1rem;
+}
+
+.fixed-left-top {
+  position: fixed;
+  left: 1rem;
+  top: 5rem;
+  z-index: 1030;
+  margin: 0 1.5rem 1.5rem 0;
+  border-radius: 50%;
+}
+
+.central{
+  padding-left: 35rem;
+  padding-right: 35rem;
+}
+
+.padding-top{
+  padding-top: 1.5rem;
+}
+
+.padding-left{
+  padding-left: 1rem;
+}
+
+.top-error-padding{
+  padding-left: 5rem;
+  padding-right: 1rem;;
 }
